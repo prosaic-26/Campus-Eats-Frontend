@@ -1,0 +1,100 @@
+html{
+  margin:0;
+  padding:0;
+}
+body{
+  margin:0;
+  padding:0;
+  margin-top:0;
+  box-sizing: border-box;
+}
+.cover{
+  position:absolute;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.outlet-page{
+  position:absolute;
+  width:100vw;
+  height:100%;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Work Sans;
+}
+.outlet-div{
+  width:60vw;
+  margin: 20px 20vw;
+  /*border: 2px solid black;*/
+  height:50vh;
+  box-sizing: border-box;
+}
+.outlet-add-header{
+  width:100%;
+  font-size: 60px;
+  margin:100px 0;
+  text-align: center;
+}
+.form-tab{
+  display:block;
+  margin:0;
+  padding:0;
+  height:80px;
+  width:100%;
+}
+.form-tab-left{
+  display:block;
+  width:20%;
+  float:left;
+  margin:0;
+  padding:30px 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  height:80px;
+}
+.form-tab-left p{
+  margin:0;
+}
+.form-tab-right{
+  width:80%;
+  display:block;
+  float:left;
+  margin:0;
+  box-sizing: border-box;
+  font-size: 20px;
+  height:80px;
+  text-align: center;
+}
+.outlet-add-field{
+  width:90%;
+  margin: 20px 5%;
+  height:40px;
+  border-radius: 5px;
+}
+.text-area{
+  width:90%;
+  margin: 20px 5%;
+  height:40px;
+  border-radius: 5px;
+  height:100px;
+}
+.form-tab.des{
+  height:125px;
+}
+.file-input{
+  height:50px;
+  font-size:15px;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding:10px;
+}
+#outlet-submit{
+  width:20%;
+  margin: 30px 40%;
+  height:50px;
+  font-size: 25px;
+  border: solid 3px black;
+  border-radius: 5px;
+}

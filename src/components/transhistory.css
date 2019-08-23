@@ -1,0 +1,334 @@
+
+.thcover{
+  margin:0;
+  padding:0;
+  background-color: #FFFFFF;
+  width:100%;
+}
+body{
+  margin:0;
+  padding:0;
+  margin-top:0;
+  box-sizing: border-box;
+}
+/*.back-pic{
+  display:block;
+  position: fixed;
+  width:100vw;
+  height:100vh;
+}*/
+
+.th-title{
+    width: 25%;
+    height: 100px;
+    z-index: 10;
+    text-align: center;
+    padding: 15px;
+    padding-top: 12px;
+    letter-spacing: 4px;
+    font-size: 60px;
+    font-family: Lato;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 90px 37.5% 50px 37.5%;
+    background-color: white;
+    box-shadow: 0 14px 24px 0 rgba(0,0,0,0.4);
+}
+.thmot-div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    height: 150px;
+    background-image: url(images/outletsback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thveg-radio{
+  width:20%;
+  height:35px;
+  margin:5px;
+  margin-left: 18px;
+  display:block;
+  float:left;
+}
+.thnonveg-radio{
+  width:20%;
+  height:35px;
+  margin:5px;
+  display:block;
+  float:left;
+}
+.thorder-div{
+  width:100%;
+  box-sizing:border-box;
+  padding:20px 0;
+  margin:0;
+  background-color: white;
+}
+.thorder-title{
+  font-size:30px;
+  margin:5px 0;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.thorderitem{
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  height: 0%;
+  margin: 0;
+  padding: 0;
+}
+.thorderitem-name1{
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  width: 50%;
+  font: 300 1.1vw/1 "Roboto", sans-serif;
+  letter-spacing: -.025em;
+  margin: 0 0 .125em;
+  margin-left: 5px;
+  margin-top: 13px;
+}
+.thorderitem-nov{
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  width: 5%;
+  padding: 8px 0;
+  height: 20px;
+  margin: 2px 0;
+  margin-left: 30%;
+  font-size: 22px;
+}
+.thnonveg{
+  color:red;
+}
+.thveg{
+  color:green;
+}
+.thorder-status{
+  position: relative;
+  display:block;
+  float:right;
+  box-sizing: border-box;
+  width:25%;
+  height:50px;
+  padding:0px;
+  padding-top:20px;
+  font-size: 15px;
+  margin:0;
+  text-transform: uppercase;
+}
+.thitem-price{
+  position: relative;
+  box-sizing: border-box;
+  display:block;
+  float:left;
+  width:20%;
+  height:30px;
+  padding:6px;
+  font-size: 18px;
+  margin:2.5px 0;
+  margin-left:0%;
+  margin-top: 0%;
+  padding-top: 0;
+}
+.thorderitem-left{
+  display: block;
+  float: left;
+  position:relative;
+  box-sizing: border-box;
+  width:50%;
+  height:75px;
+  margin:0;
+  padding:10px;;
+}
+.thorderitem-right{
+  position: relative;
+  display: block;
+  float: left;
+  width:50%;
+  box-sizing: border-box;
+  height:75px;
+  text-align: right;
+  margin-left: 0%;
+  padding:10px;
+}
+.thorderitem-button{
+  box-sizing: border-box;
+  padding:10px;
+  font-size: 15px;
+  width:60%;
+  margin:20px 20%;
+  height:40px;
+  border:2px solid #babcc1;
+  border-radius: 3px;
+  background-color:#3b3d3f;
+  color:#d4d9dd;
+}
+
+.thorderitem-buttonDec {
+  box-sizing: border-box;
+  padding:1px;
+  font-size: 12px;
+  width:23%;
+  margin:2px 2%;
+  height:20px;
+  border:2px solid #babcc1;
+  border-radius: 3px;
+  margin-top: 12px;
+}
+
+.thorderitem-buttonInc {
+  box-sizing: border-box;
+  padding:1px;
+  font-size: 12px;
+  width:23%;
+  margin:2px 2%;
+  height:20px;
+  border:2px solid #babcc1;
+  border-radius: 3px;
+}
+
+.thitemTotalPrice1{
+    margin-top: 0.2rem;
+    margin-left: 0%;
+    font-size: 1.5em;
+    padding: 2px;
+    text-align: right;
+    color: black;
+}
+
+.thtotalPrice{
+  box-sizing: border-box;
+  margin:10px 12%;
+  padding:5px 0;
+  width:76%;
+  height:35px;
+  font-size: 30px;
+  font-family: Roboto;
+  text-align: right;
+}
+
+.thplace-order{
+  box-sizing: border-box;
+  margin:30px 20vw;
+  width:20vw;
+  height:50px;
+  font-size: 30px;
+  padding:5px;
+  font-family: Roboto
+}
+.thitem-outlet{
+ font-size: 18px;
+ box-sizing: border-box;
+ height:25px;
+ padding:2.5px;
+ padding-left:8px;
+}
+
+.thorderitem-quantity{
+  position: absolute;
+  box-sizing: border-box;
+  width:20%;
+  height:35px;
+  font-size: 15px;
+  font-family: Roboto;
+  text-align: right;
+  right: 37%;
+  margin-top:1.2%;
+  color: #686868;
+}
+
+#thtotalLabel1{
+  position: relative;
+  width:100%;
+  height:30px;
+  font-size: 15px;
+  margin-top: 9%;
+  margin-left: 60%;
+}
+
+.thstu-order-time{
+  position: relative;
+  display:block;
+  box-sizing: border-box;
+  float:left;
+  width:27%;
+  text-align: center;
+  height:40px;
+  right: 0;
+  padding:6px;
+  padding-top:10px;
+  margin-right:20px;
+  margin-bottom: 10px;
+  font-size: 1vw;
+  font-family: Roboto;
+  margin-top: 5px;
+  background-color: lightgrey;
+  color:#f7203c;
+}
+.thoutlet-name1{
+    margin-bottom: -2%;
+}
+.thoutlet-name{
+    width: 70%;
+    text-align: left;
+    height: 75px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 3.5% 15% -0.75% 15%;
+    font-size: 45px;
+    font-family: Lato;
+    letter-spacing: 3px;
+    z-index: 10;
+}
+.thorder-list{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    height: 3.5rem;
+    width: 65%;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    margin: -0.1% 17.5%;
+    transition: 0.2s;
+}
+.thorder-list:hover,
+.thorder-list:hover * {
+  border-color: #3498db;
+}
+.thorder-list:hover{
+   width:67%;
+   height:3.61rem;
+   box-shadow: 0 7px 15px 0 rgba(0,0,0,0.4);
+}
+.thoutlet-title-hor{
+      width: 100%;
+    position: relative;
+    display: block;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 0;
+    padding: 0;
+}
+.thorder-outlet-name{
+   width:40%;
+   box-sizing: border-box;
+   display:block;
+   position:relative;
+   float:left;
+   font-size:25px;
+   margin:0;
+   padding:10px;
+}

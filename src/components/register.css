@@ -1,0 +1,136 @@
+html{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+.cover{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+  margin-top:0;
+  box-sizing: border-box;
+}
+
+
+#register-box{
+	width: 39.5%;
+	margin: auto;
+	margin-top: 0%;/*3*/
+	margin-left: 28%;/*50*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	/*color: #fff;
+	background: linear-gradient(-45deg, #FF77FF, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 5s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;*/
+
+
+}
+
+#box-title{
+	text-align: center;
+	color: #840606;
+	margin:0;
+}
+
+#register-box div{
+	margin: 10px 0 10px 5px;
+	height: 50px;
+}
+#register-box{
+	margin-top: 100px;
+}
+#register-main{
+	height: 100%;
+	background-image: url("./images/register1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:absolute;
+  width:100vw;
+  margin-top:50px;
+  padding:0;
+}
+
+.register-input{
+	float: right;
+	margin-right: 25px;
+	height: 40px;
+	width: 60%;
+	font-family: 'Work Sans';
+	display: block;
+	background: #0F1316;
+	color: white;
+	font-size: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+#input-email{
+	font-size: 16px;
+}
+
+label{
+	float: left;
+	height: 40px;
+	padding-top: 6px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#button-register{
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin-top: 25px;
+	/*margin-right: 15px;*/
+	height: 40px;
+	width: 60%;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-transform: uppercase;
+	background: #530404;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/*#main-title{
+	text-align: center;
+	font-size: 50px;
+	color: #05FFEF;
+}*/
+
+hr{
+	margin-bottom: 20px;
+}
+
+#button-register:hover{
+	color: #530404;
+	background: #FFFFFF;
+	font-weight: bolder;
+}
+
+.home-img{
+  width:100vw;
+  height:93vh;
+  position:absolute;
+  margin:0;
+  padding:0;
+  z-index:-100;
+}
+
+*:focus {
+    outline: none;
+}

@@ -1,0 +1,558 @@
+.cover{
+  margin:0;
+  padding:0;
+  width:100%;
+  background-color: white;
+}
+body{
+  margin:0;
+  padding:0;
+  margin-top:0;
+  box-sizing: border-box;
+  background-color: white;
+}
+.outlets-div{
+  position:relative;
+  width:90%;
+  height:auto;
+  padding:50px 5%;
+  margin-top: 0px;
+  padding-top:60px;
+  font-family: Roboto;
+  background-color: white;
+
+}
+.outlets-main{
+  width:100%;
+  height:auto;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.outlets-title{
+  font-size: 60px;
+  text-align: center;
+  width:100%;
+  padding:0;
+}
+.eachoutlet{
+  width:100%;
+  height:180px;
+  box-sizing: border-box;
+  padding:5px;
+  margin:20px 0;
+}
+.eachoutlet-left{
+  margin:0;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width:30%;
+  display:block;
+  float:left;
+  height:160px;
+}
+.eachoutlet-mid{
+  margin:0;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width:50%;
+  display:block;
+  float:left;
+  height:160px;
+  padding-top:5px;
+}
+.eachoutlet-right{
+  margin:0;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width:20%;
+  display:block;
+  float:left;
+  height:160px;
+  padding-top:5px;
+}
+.eachoutlet-image{
+  width:75%;
+  height:150px;
+  margin: 5px 10%;
+  padding:0;
+  border-radius: 8px;
+}
+hr.eachoutlet-rule{
+  border: 0;
+ height: 1px;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.eachoutlet-name{
+  box-sizing: border-box;
+  height:40px;
+  padding:10px;
+  font-size: 22px;
+}
+.eachoutlet-location{
+  box-sizing: border-box;
+  height:30px;
+  padding:6px;
+  font-size: 19px;
+}
+.eachoutlet-email{
+  box-sizing: border-box;
+  height:30px;
+  padding:6px;
+  font-size: 19px;
+}
+.eachoutlet-mobno{
+  box-sizing: border-box;
+  height:30px;
+  padding:6px;
+  font-size: 19px;
+}
+.view-menu-button{
+  box-sizing: border-box;
+  padding:10px;
+  font-size: 15px;
+  width:60%;
+  margin:20px 20%;
+  height:40px;
+  border:2px solid #babcc1;
+  border-radius: 3px;
+  background-color:#3b3d3f;
+  color:#d4d9dd;
+}
+.ot-div{
+  width:100%;
+  margin:0;
+  padding:0;
+  margin-bottom:0;
+  height:200px;
+  background-image: url("images/outletsback.jpg");
+  background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+.o-title{
+  width:30%;
+  height:120px;
+  z-index:10;
+  text-align: center;
+  padding:25px;
+  padding-top:20px;
+  letter-spacing: 4px;
+  font-size:70px;
+  font-family:Lato;
+  box-sizing: border-box;
+  position:absolute;
+  margin:140px 35% 0 35%;
+  background-color: white;
+  box-shadow: 0 14px 24px 0 rgba(0,0,0,0.4);
+}
+.outlets-inner{
+  width:100%;
+  height:100%;
+  display:block;
+  overflow: auto;
+  box-sizing: border-box;
+  padding:10px;
+  margin:0;
+  margin-top:20px;
+  font-family:Lato;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  width:23%;
+  position:relative;
+  margin:1%;
+  height:400px;
+  display:block;
+  float:left;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+}
+.eo-image{
+  width:100%;
+  height:230px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+}
+
+/* Add some padding inside the card container */
+.o-container {
+  padding: 2px 16px;
+}
+.eo-name{
+  height:40px;
+  width:100%;
+  box-sizing: border-box;
+  padding:3px;
+  font-size:35px;
+  font-weight: 500;
+  text-align: center;
+  margin:5px;
+}
+.eo-det{
+  width:100%;
+  height:20px;
+  margin:0;
+  margin-top:5px;
+  box-sizing: border-box;
+  text-align: center;
+  padding:3px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 230px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.eo-det-2{
+  width:100%;
+  margin:0;
+  box-sizing:border-box;
+  text-align: center;
+  padding:15px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.eo-but-div{
+  width:100%;
+  height:60px;
+  box-sizing: border-box;
+  padding:5px;
+}
+.eo-button{
+  box-sizing: border-box;
+  display:block;
+  float:left;
+  width:40%;
+  height:40px;
+  margin:10px 5% 10px 5%;
+  color:white;
+  border: 0px;
+  border-radius: 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition:0.2s;
+}
+.eo-b1{
+  background-color: #2bdb18;
+  border-color: #2bdb18;
+}
+.eo-b2{
+  background-color: #5867ef;
+  border-color: #5867ef;
+
+}
+.eo-button:hover{
+  width:44%;
+  height:44px;
+  margin:8px 3% 8px 3%;
+  font-size:17px;
+}
+#o-menu-div{
+  box-sizing: border-box;
+  display:none;
+  margin:0px;
+  margin-top:0px;
+  width:100%;
+  padding:0 10%;
+  background-color: white;
+}
+.menu-div{
+  width:100%;
+  box-sizing: border-box;
+  height:auto;
+  display:block;
+  padding:0px;
+  margin:0
+}
+.menu-title-div{
+  width:100%;
+  box-sizing: border-box;
+  margin:0;
+  height:150px;
+  padding:0px;
+}
+.omenu-title{
+  width:40%;
+  text-align: center;
+  height:100px;
+  position:absolute;
+  box-sizing:border-box;
+  padding:15px;
+  margin:0 30% 0 18%;
+  font-size: 45px;
+  font-family: Lato;
+  letter-spacing: 3px;
+  background-color: white;
+  box-shadow: 0 14px 24px 0 rgba(0,0,0,0.4);
+  z-index: 10;
+}
+.menu-title-hor{
+  width:80%;
+  position:absolute;
+  display:block;
+  border: 0;
+ height: 4px;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin:0;
+    padding:0;
+    margin-top:50px;
+}
+.om-inner{
+  width:100%;
+  box-sizing: border-box;
+  padding:10px;
+  height:100%;
+  display:block;
+  overflow: auto;
+  height:auto;
+  transition: 0.8s;
+}
+.om-item-div{
+  display:block;
+  float:left;
+  position:relative;
+  box-sizing: border-box;
+  width:45%;
+  height:100px;
+  padding:0;
+  margin:10px 2.5% 10px 2.5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition:0.2s
+}
+.om-item-div:hover{
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+}
+.omi-left{
+  height:100%;
+  display:block;
+  float:left;
+  width:50%;
+  box-sizing: border-box;
+  margin:0;
+  padding:10px;
+}
+.omi-mid{
+  height:100%;
+  width:20%;
+  box-sizing: border-box;
+  display:block;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:10px;
+}
+.omi-right{
+  height:100%;
+  width:30%;
+  display:block;
+  float:left;
+  box-sizing: border-box;
+  margin:0;
+  padding:0px;
+}
+.om-itemname{
+  width:100%;
+  height:60%;
+  display:block;
+  float:left;
+  padding:5px;
+  margin:0;
+  box-sizing: border-box;
+  font-size: 1.75vw;
+  font-family:Lato;
+}
+.om-category{
+  width:100%;
+  height:40%;
+  display:block;
+  float:left;
+  padding:5px;
+  margin:0;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight:300;
+  font-family:Lato;
+}
+.om-nov{
+  width:100%;
+  height:60%;
+  display:block;
+  float:left;
+  padding:5px;
+  margin:0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight:300;
+  font-family:Lato;
+}
+.nonveg{
+  color:red;
+}
+.veg{
+  color:green;
+}
+.om-price{
+  width:100%;
+  height:40%;
+  display:block;
+  float:left;
+  padding:5px;
+  margin:0;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 20px;
+  font-weight:300;
+  font-family:Lato;
+}
+.om-addcart{
+  width:22%;
+  height:40px;
+  margin:30px 4.5% 40px 4.5%;
+  padding:7px;
+  border:0px;
+  border-radius:20px;
+  font-size:16px;
+  transition: 0.2s;
+  z-index:100;
+  color:white;
+  position:absolute;
+  background-color: #E30425;
+}
+.om-addcart:hover{
+  background-color:#E91E63;
+
+}
+.col-r{
+  z-index:1;
+  width:15%;
+  height:100%;
+  position:absolute;
+  display:block;
+  margin:0;
+  padding:0;
+  margin-left:15%;
+  background-color: #6A1B9A;
+}
+.menu-search-div{
+  width:100%;
+  height:100px;
+  margin:0;
+  box-sizing: border-box;
+  padding:20px;
+}
+.m-search{
+  width:80%;
+  height:50px;
+  box-sizing: border-box;
+  margin:10px 10%;
+  border-radius: 25px;
+}
+.menu-form{
+    position: relative;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s;
+    width: 100px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+.menu-search{
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    color:white;
+    background-color:#25073f;
+    display: none;
+    font-size: 1em;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.fa-search{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 3.5px;
+    right: 3.5px;
+    border-radius: 50%;
+    color: white;
+    background-color:#25073f;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.menu-form:hover{
+    width: 400px;
+    cursor: pointer;
+    left:50%;
+}
+
+.menu-form:hover input{
+    display: block;
+}
+
+.menu-form:hover .fa-search{
+    background: white;
+    color: #25073f;
+}

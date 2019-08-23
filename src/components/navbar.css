@@ -1,0 +1,121 @@
+.nav-bar{
+  position:relative;
+  width:100vw;
+  height:50px;
+  overflow:hidden;
+  background-color: #373433;
+  margin:0;
+  padding:0;
+}
+.nav-bar-div{
+  position:fixed;
+  width:100vw;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  z-index:100
+}
+.nav-element{
+  display:block;
+  float:right;
+  color:#B3AAA8;
+  font-family: Work Sans;
+  height:40px;
+  width:5vw;
+  text-align: center;
+  padding:14px 0;
+  text-decoration: none;
+  padding:17px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ver-element{
+  box-sizing: border-box;
+  display:block;
+  float:left;
+  color:#B3AAA8;
+  font-family: Work Sans;
+  height:50px;
+  width:10vw;
+  text-align: center;
+  padding:17px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.campus{
+  float:left;
+  font-size: 19px;
+  width:10vw;
+  padding-top:15px;
+  padding-left:0px;
+  font-weight: 800;
+}
+.logout{
+  float:right;
+  padding:17px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.register{
+  float:right;
+  padding:17px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.fir{
+  float:left;
+  padding:10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  width:4vw;
+}
+.nav-element:hover{
+  color:#DED1CD;
+}
+.ver-element:hover{
+  color:#DED1CD;
+  border:1px solid #DED1CD;
+  border-radius: 3px;
+}
+.ver-nav-div{
+  display:none;
+  position:relative;
+  overflow:hidden;
+  width:10vw;
+  background-color: #373433;
+  z-index:1000;
+  margin-right:0;
+  padding:0;
+  display:none;
+}
+.dis-block{
+  display:block;
+}
+.nav-form{
+  box-sizing: border-box;
+  display:block;
+  float:right;
+  height:50px;
+  padding:7px;
+}
+.nav-field{
+  box-sizing: border-box;
+  height:36px;
+  width: 250px;
+  margin-right: 7px;
+  font-family: Work sans;
+  border:2px solid #373433;
+  border-radius: 7px;
+  padding:4px;
+}
+.nav-submit{
+  height:36px;
+  width:80px;
+  border:2px solid #373433;
+  border-radius: 5px;
+  display:none;
+}
+.fa-bars{
+  font-size: 30px;
+}
